@@ -22,21 +22,21 @@ body, html {
 }
 
 .left {
-    background-color: #0d314a;
+    background-color: #313131;
     color: white;
 }
 
 .right {
-    background-color: #2c2d0d;
+    background-color: #212121;
     color: white;
 }
 
 .left:hover {
-    background-color: #4a88b4;
+    background-color: #cf48d4;
 }
 
 .right:hover {
-    background-color: #9ca02b;
+    background-color: #ffff00;
 }
 
 h1 {
