@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+
+
+
+
+*:focus {
+    outline: 0 !important;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0; /* change this to whatever height you want it */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+
+.container-section{
+    padding-top: 40px;
+}
+
+/*
+.container .container-section .container-section-part{
+    box-sizing: border-box;
+    border:solid 1px #ececd1;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: -2px 3px 4px #f7e4e4;
+}
+*/
+.container-section .container-section-part .cs-first .cs-first-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container-section .container-section-part .cs-first .cs-first-description{
+    text-align: center;
+}
+
+.container-section .container-section-part .container-section-second{
+    margin:30px 0px;
+}
+
+.container-section .container-section-part .container-section-second .cs-second-button-part .first-button .app-button {
+    width: 100%;
+    padding: 7% 0 ;
+    text-align: center;
+    vertical-align: text-bottom;
+    color: #464646;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+}
+
+.shape-button{
+    border-radius:0px ;
+    background: #ffffff;
+    border-width: 5px;
+    border-color: #6e6e6e;
+}
+
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0; overflow: hidden;
+    max-width: 100%; height: auto;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+/*BUTTON GENERAL*/
+.big-button{
+    font-size:120px !important;
+}
+
+.big-button-box{
+    transition-duration: 0.2s;
+}
+
+.big-button-box:hover{
+    border-radius: 0px ;
+    border-width: 5px;
+    transform: scale(1.03);
+}
+
+.big-button-box:active{
+    border-radius: 0px ;
+    border-width: 5px;
+    transform: scale(1);
+}
+
+
+/* MESSAGE BUTTON*/
+
+.message-box {
+    border-color: #eb56f0;
+    color: #eb56f0 !important;
+}
+
+.message-box:hover {
+    background: #eb56f0;
+    border-color: #eb56f0;
+    color: #FFFFFF !important;
+}
+
+.message-box:active{
+    background: #eb56f0 !important;
+    border-color: #eb56f0 !important;
+}
+
+
+/* NOTIFY BUTTON*/
+.notify-box {
+    border-color: #1985c4;
+    color: #0C689C !important;
+}
+
+.notify-box:hover {
+    background: #1985c4;
+    border-color: #0C689C;
+    color: #FFFFFF !important;
+}
+
+.notify-box:active{
+    background: #176b9c !important;
+    border-color: #114969 !important;
+}
+
+
+/* ACTIVITY BUTTON*/
+.activity-box {
+    border-color: #1570a5;
+    color: #0a537e !important;
+}
+
+.activity-box:hover {
+    background: #1570a5;
+    border-color: #0a537e;
+    color: #FFFFFF !important;
+
+}
+
+.activity-box:active{
+    background: #185c83 !important;
+    border-color: #113d57 !important;
+}
+
+/* MY HOTEL BUTTON*/
+.hotel-box {
+    border-color: #f8d069;
+    color: #caad5c !important;
+}
+
+.hotel-box:hover {
+    background: #f8d069;
+    border-color: #caad5c;
+    color: #FFFFFF !important;
+}
+
+.hotel-box:active{
+    background: #d8b65f !important;
+    border-color: #b39951 !important;
+}
+
+
+/* ORDERS BUTTON*/
+.order-box {
+    border-color: #ee7876;
+    color: #D45553 !important;
+}
+
+.order-box:hover {
+    background: #ee7876;
+    border-color: #D45553;
+    color: #FFFFFF !important;
+
+}
+
+.order-box:active{
+    background: #cf6665 !important;
+    border-color: #af4644 !important;
+}
+
+
+/* CONTENT BUTTON*/
+.content-box {
+    border-color: #1570a5;
+    color: #0a537e !important;
+}
+
+.content-box:hover {
+    background: #1570a5;
+    border-color: #0a537e;
+    color: #FFFFFF !important;
+
+}
+
+.content-box:active{
+    background: #146492 !important;
+    border-color: #175070 !important;
+}
+
+/* MENU BUTTON*/
+.menu-box {
+    border-color: #ee7876;
+    color: #D45553 !important;
+    transition-duration: 0.2s;
+}
+
+.menu-box:hover {
+    border-radius: 30px ;
+    background: #ee7876;
+    border-width: 5px;
+    border-color: #D45553;
+    color: #FFFFFF !important;
+
+}
+
+.menu-box:active{
+    background: #cf6665 !important;
+    border-color: #af4644 !important;
+}
+
+
+
+/* ROOM BUTTON */
+.room-box {
+    border-color: #f8d069;
+    color: #caad5c !important;
+    transition-duration: 0.2s;
+
+}
+
+.room-box:hover {
+    border-radius: 30px ;
+    background: #f8d069;
+    border-width: 5px;
+    border-color: #caad5c;
+    color: #FFFFFF !important;
+
+}
+
+.room-box:active{
+    background: #d8b65f !important;
+    border-color: #b39951 !important;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .container .container-section .container-section-part{
+        padding: 20px 0px 20px 0px;
+
+    }
+
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .app-button {
+        width: 80%;
+        padding: 35% 0 35% 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 0.2px;
+    }
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .one{
+        border-radius: 20px 0px 20px 20px;
+    }
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .two{
+        border-radius: 0px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container .container-section .container-section-part{
+        padding: 20px 0px 20px 0px;
+
+    }
+    .container .container-section .container-section-part .container-section-second{
+        margin: 5px;
+    }
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .app-button {
+        width: 100%;
+        padding: 42% 0 42% 0;
+        font-size: 12px;
+        margin-bottom: 10px;
+        letter-spacing: 0.2px;
+    }
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .one{
+        border-radius: 20px 0px 20px 20px;
+    }
+
+    .container-section .container-section-part .container-section-second .cs-second-button-part .first-button .two{
+        border-radius: 0px 20px 20px 20px;
+    }
+
+
+
+}

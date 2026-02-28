@@ -8,16 +8,17 @@ body, html {
 .container {
     display: flex;
     height: 100%;
-    flex-direction: row; /* Varsayılan olarak yan yana */
+    flex-direction: row; 
 }
 
-.left, .right {
+/* center sınıfı buraya eklendi */
+.left, .center, .right {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s;
-    cursor: pointer; /* İmleci el simgesine dönüştürür */
+    cursor: pointer; 
     font-size: 2em;
 }
 
@@ -26,27 +27,25 @@ body, html {
     color: white;
 }
 
+.center {
+    background-color: #2a2a2a;
+    color: white;
+}
+
 .right {
     background-color: #212121;
     color: white;
 }
 
-.left:hover {
-    background-color: #cf48d4;
-}
-
-.right:hover {
-    background-color: #ffff00;
-}
-
 h1 {
     margin: 0;
     font-size: 2em;
+    text-align: center; /* Uzun metinler için ortalama eklendi */
 }
 
 /* Mobil cihazlar için medya sorgusu */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Altlı üstlü düzen */
+        flex-direction: column; 
     }
 }
